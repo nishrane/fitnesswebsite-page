@@ -1,0 +1,111 @@
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            background:url("images/back6.jpg") no-repeat center center/cover;
+            /* background-size:cover; */
+            font-family: Roboto Slab;
+        }
+        .left img{
+            width:50px;
+            filter:invert(0%);
+        }
+        .left div{
+            text-align: center;
+            line-height: 19px;
+            font-size: 20px;
+            color: white;
+        }
+
+        .left {
+            /* border: 3px solid yellow; */
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 20px;
+        }
+
+        .right {
+            /* border: 3px solid green; */
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 20px;
+        }
+
+        .center {
+            /* border: 3px solid red; */
+            display: block;
+            width: 50%;
+            margin: 20px auto;
+            text-decoration: bold;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            text-decoration: bold;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            padding: 34px 20px;
+            font-family: Roboto Slab;
+            color:rgb(241, 234, 234);
+            font-size: 25px;
+
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+            color:rgb(228, 170, 54);
+        }
+        .btn{
+           margin:0px 9px;
+           color:white;
+           background:black;
+           padding:4px 14px;
+           border:2px solid grey;
+           border-radius: 7px;
+           font-size: 15px;
+        }
+        .btn a{
+            color:white;
+text-decoration: none;
+        }
+        .btn a:hover{
+            color:rgb(228, 170, 54);
+        }
+        .btn:hover{
+            color: rgb(228, 170, 54);
+        }
+        .container{
+            /* border:2px solid peachpuff; */
+            margin:100px 150px;
+            padding:10px;
+            width:33%;
+            border-radius: 23px;
+        }
+        .formdata input{
+        padding:5px;
+        width:400px;
+        border:3px solid rgb(28, 44, 44);
+        border-radius: 15px;
+        font-size: 15px;
+        font-family: Roboto Slab;
+        margin: 5px 20px;
+        }
+        #submitbtn{
+            display:block;
+            width:25%;
+            margin:auto;
+        }
+        .container h1{
+            text-align: center;
+            color:whitesmoke;
+        }
+        .gender{
+            margin:5px 20px;
+            color:whitesmoke;
+            
+        }
+    
